@@ -4,6 +4,7 @@ import api from "../api";
 import CartList from "../components/CartList";
 import Header from "../components/Header";
 import ProductsGrid from "../components/ProductsGrid";
+import axios from "axios";
 
 const Home = ({ products }) => {
 	const [cart, setCart] = useState([]);
